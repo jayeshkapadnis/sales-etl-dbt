@@ -1,9 +1,9 @@
 WITH sales_data AS (
-    SELECT * FROM {{ ref('stg_sales_data') }}
+    SELECT * FROM {{ ref('sales_data') }}
 ),
 
 constants AS (
-    SELECT * FROM {{ ref('stg_constants') }}
+    SELECT * FROM {{ ref('constants') }}
 )
 
 SELECT
