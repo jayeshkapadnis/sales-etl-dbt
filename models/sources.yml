@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: sales_data_source
+    tables:
+      - name: stg_sales_data
+      - name: stg_constants
